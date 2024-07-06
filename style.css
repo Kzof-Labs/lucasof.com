@@ -43,6 +43,7 @@ a {
 }
 .center-profile {
     max-width: 560px;
+    width: 100%;
     background-color: rgb(5, 5, 5, 0.95);
     border-radius: 10px;
     margin-top: 100px;
@@ -52,7 +53,7 @@ a {
     position: relative;
     padding: 7px;
     border-radius: 6px;
-    width: 500px;
+    width: 546px;
 }
 
 .banner {
@@ -130,4 +131,9 @@ footer {
     position: fixed;
     bottom: 35px;
     font-size: 18px;
+}
+footer p {
+    background-color: rgb(0, 0, 0, 0.85);
+    padding: 3px 10px 3px 10px;
+    border-radius: 6px;
 }
