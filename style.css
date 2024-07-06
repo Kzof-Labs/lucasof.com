@@ -37,6 +37,10 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(0, 145, 255);
+}
 .center-profile {
     max-width: 560px;
     background-color: rgb(5, 5, 5, 0.95);
@@ -72,11 +76,6 @@ body {
     font-size: 24px;
 }
 
-.profile-description a {
-    color: rgb(0, 145, 255);
-
-}
-
 .profile-icons {
     display: flex;
     justify-content: center;
@@ -94,7 +93,7 @@ body {
 
 .root-dir {
     font-size: 19px;
-    color: rgb(0, 145, 255);
+    color: rgba(0, 100, 255, 0.8);
     padding: 5px;
     background-color: rgb(10, 10, 10, 0.8);
 }
